@@ -1,0 +1,76 @@
+@font-face {
+    font-family: timer-font;
+    src: url(/assets/fonts/Calculator.ttf);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    background: #19191a;
+    color: #eeeeee;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.all-timers {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    background: #208320;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.timer {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 36px;
+    font-family: timer-font;
+    border: 1px solid white;
+
+}
+
+.timer-control {
+    font-family: timer-font;
+    font-size: 50px;
+    font-weight: bold;
+    color: red;
+}
+
+.input {
+    font-family: timer-font;
+    font-size: 36px;
+    width: 60px;
+    height: 40px;
+    color: red;
+    background: black;
+}
+
+.timer-display {
+    margin-top: 10px;
+    border: 1px solid white;
+    font-size: 68px;
+    background-color: black;
+}   
